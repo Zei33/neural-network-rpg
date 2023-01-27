@@ -1,0 +1,20 @@
+{
+  "name": "neural-rpg",
+  "version": "1.0.0",
+  "description": "A neural network designed to learn how to play an RPG.",
+  "main": "app.js",
+  "scripts": {
+    "scss": "node-sass --watch styles/scss -o styles/css"
+  },
+  "author": "Matthew Scott",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "node-sass": "^8.0.0",
+    "path": "^0.12.7"
+  }
+}
